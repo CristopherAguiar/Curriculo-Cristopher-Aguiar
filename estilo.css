@@ -1,0 +1,96 @@
+*{
+   padding: 0,5%;
+   margin: 0; 
+}
+
+:root{
+    --cor-primaria: #486288;
+    --cor-secundaria: #98336C;
+    --cor-terciaria: #C4C4C4;
+    --cor-quartenaria: #FFFFFF;
+    --texto: #000000;
+}
+
+.menu{
+   background-color: var(--cor-terciaria);
+   list-style: none;
+   display: flex;    
+}
+
+.menu-inicio{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--cor-quartenaria);
+    transition-duration: 0.5ms;
+}
+
+.menu-inicio:hover{
+    color: var(--cor-primaria);
+    background-color: var(--cor-quartenaria);
+}
+
+.cabecalho {
+    text-align: center;
+    background: linear-gradient(90.79deg, rgba(72, 98, 136, 0.6) 0.75%,
+    rgba(2, 98, 136, 0.6) 0.76%,  rgba(152, 51, 108, 0.6) 100%),
+    
+    url(fundo.png) fixed;
+    min-height: 30vh;
+    background-size: 100%;
+    color: var(--cor-quartenaria);
+}
+
+.titulo{
+    background-color: none;
+    font-size: 2.2em;
+    padding: 20px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    
+}
+
+.bloco-texto h2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--texto)
+}
+.bloco-texto p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;    
+}
+
+.perfil{
+    height: 122px;
+    width: 122px;
+    position:relative;
+    top: 10px;
+    padding: 10px;  
+}
+
+.cabecalho img {
+    border: 0px solid;
+    border-radius: 2500px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.redessociais img{
+    padding: 10px;
+    width:  28px;
+    height: 28px;
+    border: 1px;
+}
+
